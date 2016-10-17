@@ -1,0 +1,109 @@
+.row img {
+  width: 100%;
+}
+
+.title > h3 {
+  margin-top: 0;
+}
+
+.title > h3 > .positive {
+  color: green;
+}
+
+.title > h3 > .zero {
+  color: #333;
+}
+
+.title > h3 > .negative {
+  color: red;
+}
+
+.date-comments > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.date-comments > ul > li {
+  float: left;
+  padding-right: 10px;
+  border-right: 1px solid #000;
+}
+
+.date-comments > ul > li:not(:first-child) {
+  padding-left: 10px;
+}
+
+.date-comments > ul > li:last-child {
+  border-right: none;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.ng-enter{
+    transition: 0.5s ease all;
+    opacity: 0;
+}
+.ng-enter.ng-enter-active{
+    opacity: 1;
+}
+
+.ng-leave{
+    transition: 0.5s ease all;
+    opacity: 1;
+}
+
+.ng-leave.ng-leave-active{
+    opacity: 0;
+}
+
+.show {
+  display: block;
+}
+
+form.ng-submitted input.ng-invalid-required {
+  border-color: red;
+}
+
+.error {
+  font-style: italic;
+  color: red;
+}
+ .row.comments {
+   margin-top: 10px;
+ }
+
+ .row.comments > ul {
+   list-style: none;
+   padding: 0;
+   margin-bottom: 0;
+ }
+
+.row.comments > ul > li {
+  margin-bottom: 10px;
+}
+
+.row.comments > ul > li:last-child {
+  margin-bottom: 0;
+}
+
+.row.comments > ul > li > span {
+  font-weight: bold;
+}
+
+.comment-link {
+  cursor: pointer;
+}
+
+.add-comment-form {
+  margin-top: 10px;
+}
+
+.add-comment-form form {
+  margin-bottom: 0;
+}
+
+.add-comment-form input {
+  margin-right: 5px;
+}
