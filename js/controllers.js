@@ -1,5 +1,3 @@
-let app = angular.module('redditClone', ['ngAnimate', 'angularMoment']);
-
 app.controller('MainController', ($scope) => {
 
   $scope.vm = {};
@@ -118,7 +116,7 @@ app.controller('MainController', ($scope) => {
       ]
     },
     {
-      image: "http://www.alabamanews.net/wp-content/uploads/2016/05/oscar-gamble-yankees.jpg",
+      image: "http://www.murraychass.com/wp-content/uploads/2012/04/Oscar-Gamble.jpg",
       title: "People don't think it be like it is, but it do",
       upvotes: 15,
       author: "Oscar Gamble",
@@ -162,7 +160,7 @@ app.controller('MainController', ($scope) => {
       ]
     },
     {
-      image: "http://i4.ytimg.com/vi/kd4mj-8QCQw/hqdefault.jpg",
+      image: "https://i4.ytimg.com/vi/kd4mj-8QCQw/hqdefault.jpg",
       title: "Make this the spookiest Halloween yet",
       upvotes: 7,
       author: "KXVO Pumpkin Man",
